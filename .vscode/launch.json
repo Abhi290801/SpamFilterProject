@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "SpamFilterProject_db1cd342"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaFX",
+            "request": "launch",
+            "mainClass": "UI",  // Adjust this based on your package structure
+            "vmArgs": "--module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml",
+            "classPath": [
+                "lib/weka.jar",
+                "lib/*"
+            ]
+        }
+    ]
+}
